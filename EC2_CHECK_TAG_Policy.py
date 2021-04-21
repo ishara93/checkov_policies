@@ -18,7 +18,7 @@ class CKV_AWS_999(BaseResourceCheck):
     def scan_resource_conf(self, conf):
         self.logger.debug("ssss" + json.dumps(conf))
         if 'tags' in conf.keys():
-            if len(conf['tags']) > 0::
+            if len(conf['tags']) > 0:
                 return CheckResult.PASSED     
         return CheckResult.FAILED
 
