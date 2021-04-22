@@ -1,2 +1,2 @@
 # checkov_policies
-checkov policies
+checkov policies sadasdasd
